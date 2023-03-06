@@ -34,7 +34,7 @@ export const Hero = () => {
             About Me <WebStoriesIcon />
           </button>
         </Link>
-        <Link to="/" target="_blank">
+        <Link to="/projects">
           <button
             className="w-[214px] h-[66px] xl:w-[230px] xl:h-[80px] font-bold bg-secondaryBlack text-secodaryWhite
         hover:bg-primaryBlack hover:text-primaryWhite dark:bg-secodaryWhite dark:text-secondaryBlack  

@@ -4,6 +4,8 @@ import { Hero } from "./components/Hero";
 import { Skills } from "./components/Skills";
 import { ContactMe } from "./components/ContactMe";
 import { Footer } from "./components/Footer";
+import { Route, Routes } from "react-router-dom";
+import { Projects } from "./components/Projects";
 
 export const App = () => {
   return (
@@ -12,10 +14,20 @@ export const App = () => {
       transition-all duration-200 ease-linear overflow-x-hidden"
     >
       <Header />
-      <Hero />
-      <Banner />
-      <Skills />
-      <ContactMe />
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <>
+              <Hero />
+              <Banner />
+              <Skills />
+              <ContactMe />
+            </>
+          }
+        />
+        <Route path="/projects" element={<Projects />} />
+      </Routes>
       <Footer />
     </div>
   );
