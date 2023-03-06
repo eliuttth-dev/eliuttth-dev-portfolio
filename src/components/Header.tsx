@@ -10,6 +10,7 @@ export const Header = () => {
   const [isMobile, setIsMobile] = useState<boolean>(
     window.innerWidth >= 1023 ? false : true
   );
+  const emailAddress = "eliuttth@gmail.com";
   // CONFIGURATION DEPENDS ON WHAT DEVICE IS VIEWING
   const handleResize = () =>
     window.innerWidth >= 1024 ? setIsMobile(false) : setIsMobile(true);
@@ -30,15 +31,17 @@ export const Header = () => {
       after:bottom-0 after:h-[1px] after:w-full after:bg-secondaryBlack after:dark:bg-primaryWhite"
       >
         {/* GET IN TOUCH CONTAINER */}
-        <button
-          className="w-[156px] p-1  flex items-center dark:bg-primaryWhite dark:text-primaryBlack
+        <Link to={`mailto:${emailAddress}`}>
+          <button
+            className="w-[156px] p-1  flex items-center dark:bg-primaryWhite dark:text-primaryBlack
         bg-secondaryBlack text-primaryWhite rounded"
-        >
-          <div className="p-2 w-fit flex items-center justify-center  rounded-full bg-transparent ">
-            <MailOutlineIcon />
-          </div>
-          <p className="pl-2 font-semibold">Get in touch</p>
-        </button>
+          >
+            <div className="p-2 w-fit flex items-center justify-center  rounded-full bg-transparent ">
+              <MailOutlineIcon />
+            </div>
+            <p className="pl-2 font-semibold">Get in touch</p>
+          </button>
+        </Link>
 
         {/* NAVIGATION */}
         <nav className="w-fit flex items-center">
