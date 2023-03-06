@@ -3,6 +3,7 @@ import { Header } from "./components/Header";
 import { Hero } from "./components/Hero";
 import { Skills } from "./components/Skills";
 import { ContactMe } from "./components/ContactMe";
+import { Footer } from "./components/Footer";
 
 export const App = () => {
   return (
@@ -15,6 +16,7 @@ export const App = () => {
       <Banner />
       <Skills />
       <ContactMe />
+      <Footer />
     </div>
   );
 };

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import Avatar from "@mui/material/Avatar";
 import WebStoriesIcon from "@mui/icons-material/WebStories";
-import logo from "../assets/logo.png";
+import profilePic from "../assets/profile.jpg";
 
 export const Hero = () => {
   return (
@@ -11,7 +11,7 @@ export const Hero = () => {
     >
       <Avatar
         className="mt-[75px] mb-[32px]"
-        src={logo}
+        src={profilePic}
         sx={{ width: 160, height: 160 }}
       >
         EB

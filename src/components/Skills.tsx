@@ -9,7 +9,7 @@ export const Skills = () => {
         </h2>
         <div
           className="w-full h-full flex flex-col justify-center items-center py-4
-        lg:flex-row lg:flex-wrap cursor-pointer"
+        md:flex-row sm:flex-wrap cursor-pointer"
         >
           {/* JAVASCRIPT CARD */}
 
@@ -29,7 +29,7 @@ export const Skills = () => {
           {/* TYPESCRIPT CARD */}
 
           <div
-            className="w-[300px] h-[350px] mb-4 lg:ml-4  flex flex-col items-start justify-end 
+            className="w-[300px] h-[350px] mb-4 sm:ml-4  flex flex-col items-start justify-end 
             bg-[#2d79c7] text-primaryWhite rounded-xl px-4 shadow-xl transition-all
             durantion-300 ease-linear hover:-translate-y-2"
           >
@@ -42,7 +42,7 @@ export const Skills = () => {
           {/* REACT CARD */}
 
           <div
-            className="w-[300px] h-[350px] mb-4 lg:ml-4 flex flex-col items-start justify-end 
+            className="w-[300px] h-[350px] mb-4 sm:ml-4 flex flex-col items-start justify-end 
             bg-[#303030] text-primaryWhite rounded-xl px-4 shadow-xl transition-all
             durantion-300 ease-linear hover:-translate-y-2 "
           >
@@ -55,7 +55,7 @@ export const Skills = () => {
           {/* REDUX CARD */}
 
           <div
-            className="w-[300px] h-[350px] mb-4 lg:ml-4 flex flex-col items-start justify-end 
+            className="w-[300px] h-[350px] mb-4 sm:ml-4 flex flex-col items-start justify-end 
             bg-[#7749bd] text-primaryWhite rounded-xl px-4 shadow-xl transition-all
             durantion-300 ease-linear hover:-translate-y-2"
           >
@@ -68,7 +68,7 @@ export const Skills = () => {
           {/* TAILWIND CARD */}
 
           <div
-            className="w-[300px] h-[350px] mb-4 lg:ml-4 flex flex-col items-start justify-end 
+            className="w-[300px] h-[350px] mb-4 sm:ml-4 flex flex-col items-start justify-end 
             bg-[#38bdf8] text-primaryWhite rounded-xl px-4 shadow-xl transition-all
             durantion-300 ease-linear hover:-translate-y-2"
           >
@@ -81,7 +81,7 @@ export const Skills = () => {
           {/* NODE JS CARD */}
 
           <div
-            className="w-[300px] h-[350px] mb-4 lg:ml-4 flex flex-col items-start justify-end 
+            className="w-[300px] h-[350px] mb-4 sm:ml-4 flex flex-col items-start justify-end 
             bg-[#90c53f] text-[#46483d] rounded-xl px-4 shadow-xl transition-all
             durantion-300 ease-linear hover:-translate-y-2"
           >
@@ -94,7 +94,7 @@ export const Skills = () => {
           {/* PYTHON CARD */}
 
           <div
-            className="w-[300px] h-[350px] mb-4 lg:ml-4 flex flex-col items-start justify-end 
+            className="w-[300px] h-[350px] mb-4 sm:ml-4 flex flex-col items-start justify-end 
             bg-[#3673a5] text-[#ffd342] rounded-xl px-4 shadow-xl transition-all
             durantion-300 ease-linear hover:-translate-y-2"
           >
@@ -108,7 +108,7 @@ export const Skills = () => {
 
           <Link to="https://leetcode.com/eliuttth-dev/" target="_blank">
             <div
-              className="w-[300px] h-[350px] mb-4 lg:ml-4 flex flex-col items-start justify-end 
+              className="w-[300px] h-[350px] mb-4 sm:ml-4 flex flex-col items-start justify-end 
             bg-[#eab03c] text-primaryWhite rounded-xl px-4 shadow-xl transition-all
             durantion-300 ease-linear hover:-translate-y-2"
             >
