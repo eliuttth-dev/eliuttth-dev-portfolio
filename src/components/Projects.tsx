@@ -1,4 +1,5 @@
 import DashboardCustomizeIcon from "@mui/icons-material/DashboardCustomize";
+import { Link } from "react-router-dom";
 export const Projects = () => {
   return (
     <div className="w-full h-screen text-primaryBlack dark:text-primaryWhite">
@@ -6,7 +7,12 @@ export const Projects = () => {
         <h1 className="text-[3rem] font-bold text-center">
           New projects will be added soon 🔥
         </h1>
-        <DashboardCustomizeIcon className="mt-4" sx={{ fontSize: "6rem" }} />
+        <DashboardCustomizeIcon className="mt-" sx={{ fontSize: "6rem" }} />
+        <Link to="/">
+          <button className="mt-8 p-4 border rounded text-[2rem]">
+            GO HOME
+          </button>
+        </Link>
       </div>
     </div>
   );

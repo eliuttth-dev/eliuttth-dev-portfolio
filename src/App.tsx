@@ -1,3 +1,4 @@
+import { useState, useEffect } from "react";
 import { Banner } from "./components/Banner";
 import { Header } from "./components/Header";
 import { Hero } from "./components/Hero";
@@ -15,18 +16,18 @@ export const App = () => {
     >
       <Header />
       <Routes>
+        <Route path="/projects" element={<Projects />} />
         <Route
           path="/"
           element={
             <>
               <Hero />
-              <Banner />
               <Skills />
+              <Banner />
               <ContactMe />
             </>
           }
         />
-        <Route path="/projects" element={<Projects />} />
       </Routes>
       <Footer />
     </div>
