@@ -9,7 +9,7 @@ export const Projects = () => {
         </h1>
         <DashboardCustomizeIcon className="mt-" sx={{ fontSize: "6rem" }} />
         <Link to="/">
-          <button className="mt-8 p-4 border rounded text-[2rem]">
+          <button className="border-primaryBlack dark:border-primaryWhite mt-8 p-4 border rounded text-[2rem]">
             GO HOME
           </button>
         </Link>

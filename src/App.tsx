@@ -7,6 +7,7 @@ import { ContactMe } from "./components/ContactMe";
 import { Footer } from "./components/Footer";
 import { Route, Routes } from "react-router-dom";
 import { Projects } from "./components/Projects";
+import { ErrorPage } from "./components/ErrorPage";
 
 export const App = () => {
   return (
@@ -28,6 +29,7 @@ export const App = () => {
             </>
           }
         />
+        <Route path="/*" element={<ErrorPage />} />
       </Routes>
       <Footer />
     </div>
